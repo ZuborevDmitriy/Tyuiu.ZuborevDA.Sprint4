@@ -13,7 +13,7 @@ namespace Tyuiu.ZuborevDA.Sprint4.Task1.V16.Lib
         public int Calculate(int[] array)
         {
             int mult = 1;
-            for (int i = 3; i <= array.Length - 5; i++)
+            for (int i = 0; i <= array.Length - 1; i++)
             {
                 if (array[i] % 2 != 0)
                 {

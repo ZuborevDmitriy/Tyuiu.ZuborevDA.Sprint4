@@ -51,7 +51,7 @@ namespace Tyuiu.ZuborevDA.Sprint4.Task1.V16
             Console.WriteLine();
 
             Console.WriteLine("******************************************************************************");
-            Console.WriteLine("* ПРОИЗВЕДЕНИЕ НЕЧЕТНЫХ ЭЛЕМЕНТОВ МАССИВА В ДИАПАЗОНЕ ОТ 3 ДО 8:             *");
+            Console.WriteLine("* ПРОИЗВЕДЕНИЕ НЕЧЕТНЫХ ЭЛЕМЕНТОВ МАССИВА:                                   *");
             Console.WriteLine("******************************************************************************");
 
             int res = ds.Calculate(numsArry);
