@@ -38,7 +38,7 @@ namespace Tyuiu.ZuborevDA.Sprint4.Task2.V24
 
             for (int i = 0; i <= len - 1; i++)
             {
-                numsArry[i] = rnd.Next(4, 9);
+                numsArry[i] = rnd.Next(4, 10);
             }
 
             Console.WriteLine("Массив: ");
