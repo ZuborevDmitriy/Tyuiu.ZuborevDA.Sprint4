@@ -38,7 +38,7 @@ namespace Tyuiu.ZuborevDA.Sprint4.Task2.V24
 
             for (int i = 0; i <= len - 1; i++)
             {
-                numsArry[i] = rnd.Next(5, 20);
+                numsArry[i] = rnd.Next(4, 9);
             }
 
             Console.WriteLine("Массив: ");
@@ -49,7 +49,7 @@ namespace Tyuiu.ZuborevDA.Sprint4.Task2.V24
 
             Console.WriteLine();
             Console.WriteLine("******************************************************************************");
-            Console.WriteLine("* СУММА НЕЧЕТНЫХ ЭЛЕМЕНТОВ МАССИВА В ДИАПАЗОНЕ ОТ 4 ДО 9                     *");
+            Console.WriteLine("* СУММА НЕЧЕТНЫХ ЭЛЕМЕНТОВ МАССИВА                                           *");
             Console.WriteLine("******************************************************************************");
 
             int res = ds.Calculate(numsArry);
